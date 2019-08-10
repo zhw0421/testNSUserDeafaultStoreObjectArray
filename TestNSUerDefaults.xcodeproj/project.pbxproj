@@ -15,6 +15,9 @@
 		BF8AF35222FE5AD700DE8FE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AF35122FE5AD700DE8FE2 /* main.m */; };
 		BF8AF35C22FE5AD700DE8FE2 /* TestNSUerDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AF35B22FE5AD700DE8FE2 /* TestNSUerDefaultsTests.m */; };
 		BF8AF36722FE5AD700DE8FE2 /* TestNSUerDefaultsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AF36622FE5AD700DE8FE2 /* TestNSUerDefaultsUITests.m */; };
+		BF8AF37622FE5B9300DE8FE2 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AF37522FE5B9300DE8FE2 /* User.m */; };
+		BF8AF37922FE612800DE8FE2 /* User+Others.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AF37822FE612800DE8FE2 /* User+Others.m */; };
+		BF8AF37C22FE614600DE8FE2 /* Others.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AF37B22FE614600DE8FE2 /* Others.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		BF8AF36222FE5AD700DE8FE2 /* TestNSUerDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNSUerDefaultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8AF36622FE5AD700DE8FE2 /* TestNSUerDefaultsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSUerDefaultsUITests.m; sourceTree = "<group>"; };
 		BF8AF36822FE5AD700DE8FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8AF37422FE5B9300DE8FE2 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BF8AF37522FE5B9300DE8FE2 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BF8AF37722FE612800DE8FE2 /* User+Others.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "User+Others.h"; sourceTree = "<group>"; };
+		BF8AF37822FE612800DE8FE2 /* User+Others.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "User+Others.m"; sourceTree = "<group>"; };
+		BF8AF37A22FE614600DE8FE2 /* Others.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Others.h; sourceTree = "<group>"; };
+		BF8AF37B22FE614600DE8FE2 /* Others.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Others.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				BF8AF34D22FE5AD700DE8FE2 /* LaunchScreen.storyboard */,
 				BF8AF35022FE5AD700DE8FE2 /* Info.plist */,
 				BF8AF35122FE5AD700DE8FE2 /* main.m */,
+				BF8AF37422FE5B9300DE8FE2 /* User.h */,
+				BF8AF37522FE5B9300DE8FE2 /* User.m */,
+				BF8AF37722FE612800DE8FE2 /* User+Others.h */,
+				BF8AF37822FE612800DE8FE2 /* User+Others.m */,
+				BF8AF37A22FE614600DE8FE2 /* Others.h */,
+				BF8AF37B22FE614600DE8FE2 /* Others.m */,
 			);
 			path = TestNSUerDefaults;
 			sourceTree = "<group>";
@@ -262,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8AF37622FE5B9300DE8FE2 /* User.m in Sources */,
+				BF8AF37922FE612800DE8FE2 /* User+Others.m in Sources */,
 				BF8AF34722FE5AD500DE8FE2 /* ViewController.m in Sources */,
 				BF8AF35222FE5AD700DE8FE2 /* main.m in Sources */,
+				BF8AF37C22FE614600DE8FE2 /* Others.m in Sources */,
 				BF8AF34422FE5AD500DE8FE2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
