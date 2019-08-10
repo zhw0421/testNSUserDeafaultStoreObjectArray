@@ -1,0 +1,3 @@
+# testNSUserDeafaultStoreObjectArray
+NSUserDefaults存储对象数组
+对象可以是自定义的
